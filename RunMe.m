@@ -128,7 +128,7 @@ fontname("Arial")
 
 subplot(326),hold on
 bar([0 1],[probNoH2O probH2O],'FaceColor','b')
-labels = {'Wet', 'Dry'};
+labels = {'Dry', 'Wet'};
 set(gca, 'XTick', 1:2, 'XTickLabel', labels)
 
 xlabel('Water saturation')
